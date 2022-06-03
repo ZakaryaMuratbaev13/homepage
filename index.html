@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
+  <title>Testwork | Online Test Platform</title>
+  <meta name="description" content="This is a online test platform for beginners">
+  <meta name="author" content="Amir Sabirbaev, Nurlan Pirjanov, Zakarya Muratbaev">
+  <meta name="copyright" content="2022">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="./css/shared.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/mediaQueries.css">
   <link rel="stylesheet" href="./css/bootstrap-grid.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -14,7 +20,7 @@
   <header class="main-header">
     <div class="container">
       <div class="main-header__brand">
-          <a href="index.html" style="font-size: 20px; font-weight:600; color: black; text-transform: uppercase;">
+          <a href="index.html" style="font-size: 20px; font-weight:600; color: var(--color); text-transform: uppercase;">
             TestWork
               <!-- <img src="./src/logo.png" style="height: 64px;" alt="Logo"> -->
           </a>
@@ -63,15 +69,22 @@
                 Járdem
               </a>
             </li>
+            <li class="nav-list-item">
+              <p style="padding: 25px;">Bárshe testler avtorlıq huquqı menen qorǵalǵan! &copy;</p>
+            </li>
+            <li class="nav-list-item">
+              <p style="padding: 25px; padding-top: 0;">Múrajat ushın telefon nomer:
+                +995909999</p>
+            </li>
           </ul>
       </nav>
     </div>
   </header>
   <!-- /Header Section -->
   <!-- Main Section -->
-  <div class="container">
-    <section class="main"></section>
-      <main class="main-section" id="main-section"></main>
+  <section class="main">
+    <div class="container">
+      <main class="main-section" id="main-section">
         <div class="row">
           <div class="main-section__content col-lg-12 col-md-12 col-sm-12">
             <h1 class="main-section__content-title rounded">
@@ -83,33 +96,33 @@
           </div>
         </div>
       </main>
-    </section>
-  </div>
+    </div>
+  </section>
   <!-- /Main Section -->
   <!--  Statistics Section -->
   <div class="container">
       <section class="statistics"></section>
       <div class="main-section__statistics">
         <div class="row">
-          <div class="col-md-6 col-lg-3 col-sm-12 p-2">
+          <div class="col-sm-6 col-md-6 col-lg-3 p-2">
               <div class="main-section__content__item">
                 <p>196907 oqıwshılar</p>
                 <i class="fa-solid fa-graduation-cap"></i>
               </div>
           </div>
-          <div class="col-md-6 col-lg-3 col-sm-12 p-2">
+          <div class="col-sm-6 col-md-6 col-lg-3 p-2">
             <div class="main-section__content__item">
               <p>10200 jaslar </p>
               <i class="fa-solid fa-building-columns"></i>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 col-sm-12 p-2">
+          <div class="col-sm-6 col-md-6 col-lg-3 p-2">
             <div class="main-section__content__item">
               <p>10200 studentler</p>
               <i class="fa-solid fa-user-graduate"></i>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 col-sm-12 p-2">
+          <div class="col-sm-6 col-md-6 col-lg-3 p-2">
             <div class="main-section__content__item">
               <p>10200 abiturientler</p>
               <i class="fa-solid fa-school-flag"></i>
@@ -121,12 +134,13 @@
   </div>
   <!--  /Statistics Section -->
   <!-- Course Cards Section -->
-  <div class="container">
+  <div class="container container-fluid">
     <section class="cards" id="tests"></section>
       <div class="cards-section">
         <h1 class="section__title">Testler</h1>
         <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+          <!-- Cards -->
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <div class="course-card__item">
               <div class="course-card__image">
                 <a href="#">
@@ -153,12 +167,12 @@
                   <div class="card__price">
                     <span class="price">Biypul</span>
                   </div>
-                  <a href="#" class="card-btn ">Tolıq</a>
+                  <a href="./test.html" class="card-btn ">Tolıq</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <div class="course-card__item">
               <div class="course-card__image">
                 <a href="#">
@@ -185,12 +199,12 @@
                   <div class="card__price">
                     <span class="price">Biypul</span>
                   </div>
-                  <a href="#" class="card-btn ">Tolıq</a>
+                  <a href="./test.html" class="card-btn ">Tolıq</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <div class="course-card__item">
               <div class="course-card__image">
                 <a href="#">
@@ -222,7 +236,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <div class="course-card__item">
               <div class="course-card__image">
                 <a href="#">
@@ -324,9 +338,9 @@
     <section class="contacts" id="help"></section>
       <div class="contact-info" id="contact-info">
           <div class="section__title">
-              Baylanıs ushın
+              Qollanba
           </div>
-          <form action="#">
+          <!-- <form action="#">
               <div class="row">
                 <div class="col-lg-6 p-2">
                   <input type="text" placeholder="Atıńızdı kiritiń" name="firstname">
@@ -336,14 +350,20 @@
                 </div>
               </div>
               <button class="button signInBtn">Xabardı jiberiw</button>
-          </form>
+          </form> -->
+          <iframe src="https://www.youtube-nocookie.com/embed/KS76EghdCcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="clr"></div>
     </section>
   </div>
   <!-- /Contacts Section -->
   <!-- Footer Section -->
-  <div class="footer">
+  <div class="footer-section" id="footer">
+    <div class="container">
+      <div class="footer">
+        <p>Bárshe testler avtorlıq huquqı menen qorǵalǵan! ©</p>
+      </div>
+    </div>
   </div>
   <!-- /Footer Section -->
   <script src="./js/script.js"></script>

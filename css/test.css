@@ -1,0 +1,28 @@
+
+.test-lists {
+  padding-top: 8rem;
+}
+
+.tests-lists__item {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: var(--default-background-color);
+  background-color: var(--color);
+  border-radius: 8px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.tests-lists__item-number {
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.tests-lists__item-title a {
+  font-size: 1rem;
+  color: var(--default-background-color);
+}
+
+
