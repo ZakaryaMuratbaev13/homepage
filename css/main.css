@@ -12,7 +12,7 @@
   font-weight: 700;
   font-size: 100px;
   color: var(--color);
-  background: linear-gradient(90deg, #00ff0d 0%, #008552 100%);
+  background: var(--gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

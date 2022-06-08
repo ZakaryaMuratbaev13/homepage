@@ -12,6 +12,7 @@
 :root {
   --color: #084d25;
   --default-background-color: #ebf3f5;
+  /* --default-background-color: #141414; */
   --default-font: 'Inter',sans-serif;
   --secondary-font: 'Atyp Display',sans-serif;
   --animation: 0.3s ease;
@@ -20,7 +21,8 @@
   --backdrop-filter: blur(10px);
   --color: #262f38;
   --color: #51c65b;
-  /* --color: #27cc35; */
+  --color: #00eeff;
+  --color: #27cc35;
   --color-hover: #28da37;
   --second-color:  #fe893a;
   --third-color: #465461;
@@ -30,11 +32,8 @@
   --seventh-color: #465461;
   --card-title-color: #808499;
   --box-shadow: 0px 7px 20px 11px rgb(48 57 65 / 21%);
+  --gradient: linear-gradient(150deg, #00eeff 10%, #00ff9d 100%);
   --gradient: linear-gradient(150deg, #27d12f 0%, #008552 100%);
-
-  /* -webkit-user-select: none;
-  user-select: none;
-  cursor: default; */
 }
 
 html {
